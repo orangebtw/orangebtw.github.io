@@ -10,6 +10,7 @@ export default function App() {
 
   return (
     <div>
+      <h1>1158365</h1>
       <Field label="Введите русские слова" onChange={setText} value={text} />
       <Languages language={language} onLanguageChange={setLanguage} />
       <hr />
